@@ -1,8 +1,9 @@
 {
   "name": "react-native-sideswipe",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "cross-platform react native carousel with sensible defaults",
   "main": "src/index.js",
+  "types": "types/index.d.ts",
   "repository": "https://github.com/kkemple/react-native-sideswipe",
   "author": "Kurtis Kemple <kurtiskemple@gmail.com>",
   "license": "MIT",
@@ -15,7 +16,7 @@
     "contrib:build": "all-contributors generate"
   },
   "lint-staged": {
-    "scr/**/*.js": [
+    "src/**/*.js": [
       "yarn lint"
     ]
   },
